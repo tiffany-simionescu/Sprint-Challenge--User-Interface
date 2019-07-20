@@ -247,7 +247,8 @@ header nav a {
   padding: 30px;
 }
 
-.top-content img {
+.top-content img,
+.about img {
   padding-bottom: 30px;
 }
 
@@ -289,4 +290,44 @@ header nav a {
 
 .boxes .box:last-child {
   background: dodgerblue;
+}
+
+/* about.html */
+.container.about-page {
+  display: flex;
+  flex-flow: column wrap;
+}
+.about h2,
+.about p {
+  /* padding-left: 20px; */
+  width: 98%;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border: 1px dashed black;
+  margin: 20px 0;
+}
+
+.work-together hr {
+  margin: 40px 0;
+}
+
+.work-together p {
+  margin-bottom: 30px;
+}
+
+.main-about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child-item {
+  padding: 20px 0;
+  flex-basis: 400px;
+  height: 400px;
+  justify-content: space-between;
 }
