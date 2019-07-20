@@ -365,7 +365,10 @@ hr {
   color: red;
 }
 
-.text-container-contact h2,
+.text-container-contact h2 {
+  padding-top: 30px;
+  padding-left: 10px;
+}
 .text-container-contact p {
   padding-top: 20px;
   padding-left: 10px;
