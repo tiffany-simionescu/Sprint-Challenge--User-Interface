@@ -299,10 +299,10 @@ header nav a {
 }
 .about h2,
 .about p {
-  /* padding-left: 20px; */
+  padding-left: 20px;
   width: 98%;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 hr {
@@ -322,12 +322,39 @@ hr {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  padding-left: 20px;
 }
 
 .child-item {
   padding: 20px 0;
-  flex-basis: 400px;
-  height: 400px;
-  justify-content: space-between;
+  flex-basis: 380px;
+  height: 490px;
+  /* justify-content: space-around; */
+}
+
+.child-item h3 {
+  padding-top: 10px;
+}
+
+.child-item p {
+  padding-bottom: 30px;
+}
+
+.child-item a {
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.child-item hr {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.work-together {
+  padding-left: 20px;
 }
