@@ -301,8 +301,6 @@ header nav a {
 .about p {
   padding-left: 20px;
   width: 98%;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 hr {
@@ -322,7 +320,6 @@ hr {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  /* align-items: center; */
   padding-left: 20px;
 }
 
@@ -330,7 +327,6 @@ hr {
   padding: 20px 0;
   flex-basis: 380px;
   height: 490px;
-  /* justify-content: space-around; */
 }
 
 .child-item h3 {
@@ -357,4 +353,29 @@ hr {
 
 .work-together {
   padding-left: 20px;
+}
+
+/* contact.html */
+.container.contact-page {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.text-container-contact h2,
+.text-container-contact p {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.form h3 {
+  padding-top: 20px;
+}
+
+#submit {
+  margin: 20px 0;
 }
